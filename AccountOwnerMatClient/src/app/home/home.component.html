@@ -6,7 +6,7 @@
     <p>In this application we are going to work with:</p>
 </section>
 
-<mat-tab-group (selected)>
+<mat-tab-group (selectedTabChange)="executeSelectedChange($event)">
     <mat-tab label="Material Components"> 
         <p>We are going to use different material components to create nice looking angular app.</p> 
     </mat-tab>
